@@ -1,0 +1,15 @@
+$primary: #024a94;
+$secondary: #8c969d;
+
+p {
+  font-family: Lato;
+}
+.icon {
+  width: 20px;
+  height: 20px;
+  fill: transparent;
+  stroke: $primary;
+  &.inactive {
+    stroke: $secondary;
+  }
+}
